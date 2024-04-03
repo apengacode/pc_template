@@ -1,0 +1,43 @@
+export const tableOption = {
+  border: true,
+  index: true,
+  indexFixed: false,
+  indexLabel: '序号',
+  stripe: true,
+  menuAlign: 'center',
+  searchMenuSpan: 12,
+  align: 'center',
+  viewBtn: false,
+  addBtn: false,
+  editBtn: false,
+  delBtn: false,
+  card: false,
+  columnBtn: false,
+  menuWidth: 150,
+  dialogClickModal: false,
+  indexWidth: 70,
+  searchLabelWidth: 0,
+  labelWidth: 100,
+  searchIcon: true,
+  refreshBtn: false,
+  searchMenuPosition: 'right',
+  searchBtnText: '查 询',
+  labelPosition: 'left',
+  tip: false,
+  gutter: 24,
+  searchGutter: 24,
+  searchIndex: 3,
+  searchShowBtn: false,
+  searchBtn: false,
+  emptyBtn: false,
+  menu: true,
+  dialogCustomClass: 'crud-dialog',
+  selection: false,
+  column: [
+    {
+      label: 'avue',
+      prop: 'avue',
+      search: true
+    }
+  ]
+}

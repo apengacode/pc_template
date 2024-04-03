@@ -1,0 +1,122 @@
+.iconfont {
+  font-size: 20px;
+}
+
+.page {
+  width: 100vw;
+  height: 100vh;
+  background-color: #fefefe;
+}
+
+header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fefefe;
+  padding: 20px;
+  color: #333;
+  font-weight: bold;
+  box-shadow: 0px 5px 5px 0px rgba(230, 230, 230, 0.5);
+}
+
+.page-container {
+  width: 100vw;
+  height: calc(100vh - 80px);
+  display: flex;
+}
+
+.avue-menu {
+  height: 100%;
+  // width: 200px;
+  border-right: 3px solid #e6e6e6;
+}
+
+.avue-configuration {
+  height: 100%;
+  width: 400px;
+  border-right: 3px solid #e6e6e6;
+}
+
+.avue-main {
+  height: 100%;
+  flex: 1;
+}
+
+.avue-fields {
+  height: 100%;
+  width: 600px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 20px;
+
+  .menu-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    cursor: pointer;
+
+    .menu-item-icon,
+    .menu-item-name {
+      padding: 5px 0;
+    }
+  }
+
+  .active-menu {
+    color: #7ab1e1;
+  }
+}
+
+.configuration {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  // padding: 20px 0;
+  .active-configuration {
+    color: #7ab1e1;
+  }
+
+  .configuration-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding:25px 20px;
+    cursor: pointer;
+    border-bottom: 1px solid #e6e6e6;
+
+    .configuration-item-icon {
+      .icon-hosjoy_right {
+        font-size: 16px;
+      }
+    }
+
+  }
+}
+.fields {
+  width: 100%;
+  height: 100%;
+  .avue-table {
+    height: 100%;
+  }
+}
+.avue-table ::v-deep .el-tabs__content {
+  height: 100%;
+  overflow-y: scroll;
+  padding-bottom: 50px;
+}
+
+.main-card {
+  height: 50%;
+}
+.main-card ::v-deep .el-card__body {
+  height: 100%;
+}
